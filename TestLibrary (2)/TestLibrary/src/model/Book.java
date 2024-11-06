@@ -2,13 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package testlibrary;
+package model;
 
-/**
- *
- * @author dell
- */
-class Book {
+public class Book {
     private int bookId;
     private String title;
     private String author;
@@ -21,25 +17,11 @@ class Book {
         this.isBorrowed = false;
     }
 
-    public int getBookId() {
-        return bookId;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public boolean isBorrowed() {
-        return isBorrowed;
-    }
-
-    public void setBorrowed(boolean isBorrowed) {
-        this.isBorrowed = isBorrowed;
-    }
+    public int getBookId() { return bookId; }
+    public String getTitle() { return title; }
+    public String getAuthor() { return author; }
+    public boolean isBorrowed() { return isBorrowed; }
+    public void setBorrowed(boolean isBorrowed) { this.isBorrowed = isBorrowed; }
 
     @Override
     public String toString() {
