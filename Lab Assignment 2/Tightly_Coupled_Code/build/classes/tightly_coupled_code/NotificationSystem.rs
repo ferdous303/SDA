@@ -1,0 +1,3 @@
+tightly_coupled_code.NotificationSystem
+tightly_coupled_code.EmailService
+tightly_coupled_code.SMSService
